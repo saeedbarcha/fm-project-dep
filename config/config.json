@@ -1,11 +1,18 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "saeed1122",
-    "database": "fm-database",
-    "host": "localhost",
+    "username": "postgres81",
+    "password": "3Rrxwmuf0BH8YWS4J0qPX5UD3se1OAFG",
+    "database": "personal_loan_db",
+    "host": "dpg-cr9pa956l47c73cr9jng-a.oregon-postgres.render.com",
     "dialect": "postgres",
-    "logging": false
+    "port": 5432,
+    "logging": false,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
@@ -19,6 +26,12 @@
     "password": null,
     "database": "database_production",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
