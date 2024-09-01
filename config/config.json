@@ -1,12 +1,10 @@
 {
   "development": {
-    "username": "postgres81",
-    "password": "3Rrxwmuf0BH8YWS4J0qPX5UD3se1OAFG",
-    "database": "personal_loan_db",
-    "host": "dpg-cr9pa956l47c73cr9jng-a.oregon-postgres.render.com",
+    "username": "fm_database",
+    "password": "rUeQHGdxv6Q9mkHUnRUT2RoWQkCMNleb",
+    "database": "fm_database",
+    "host": "dpg-cr9rah2j1k6c73bk93qg-a.oregon-postgres.render.com",
     "dialect": "postgres",
-    "port": 5432,
-    "logging": false,
     "dialectOptions": {
       "ssl": {
         "require": true,
@@ -22,11 +20,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
+    "username": "fm_database",
+    "password": "rUeQHGdxv6Q9mkHUnRUT2RoWQkCMNleb",
+    "database": "fm_database",
+    "host": "dpg-cr9rah2j1k6c73bk93qg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
         "require": true,
